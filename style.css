@@ -10,6 +10,7 @@ body {
   text-decoration: none;
   color: white;
 }
+
 .header-section {
   background-color: #3c3a39;
   display: flex;
@@ -18,6 +19,7 @@ body {
   gap: 205px;
   position: relative;
 }
+
 .header-logo {
   align-self: center;
   padding: 10px 12px 10px 12px;
@@ -28,12 +30,14 @@ body {
   align-items: center;
   line-height: 24px;
 }
+
 .headline-section {
   display: flex;
   flex-direction: column;
   padding: 120px 24px;
   gap: 12px;
 }
+
 .headline-primary {
   height: 37%;
   width: 87%;
@@ -52,21 +56,25 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
+
 .headline-description {
   font-size: 16px;
   font-style: normal;
   line-height: 24px;
   font-weight: 400;
 }
+
 .social-media-icons {
   list-style: none;
   display: flex;
   align-items: center;
   gap: 8px;
 }
+
 .icon {
   border-radius: 8px;
 }
+
 .image-container {
   position: absolute;
   right: -4%;
