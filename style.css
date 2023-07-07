@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: center;
   padding: 2px 24px 2px 12px;
-  gap: 205px;
+  justify-content: space-between;
   position: relative;
 }
 
