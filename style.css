@@ -30,6 +30,9 @@ body {
   align-items: center;
   line-height: 24px;
 }
+.header-logo:hover {
+  color: blue;
+}
 
 .headline-section {
   display: flex;
@@ -87,6 +90,7 @@ body {
     width: 90%;
   }
 }
+
 @media only screen and (min-width: 768px) {
   /* styles for minimum desktop 768px; */
   .image-container {
