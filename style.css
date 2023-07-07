@@ -23,7 +23,7 @@ body {
 .header-logo {
   align-self: center;
   padding: 10px 12px 10px 12px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -42,7 +42,7 @@ body {
   height: 37%;
   width: 87%;
   color: #ff6b00;
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-size: 56px;
   font-weight: 400;
@@ -80,6 +80,7 @@ body {
   right: -4%;
   top: 46%;
 }
+
 .image-container img {
   width: 90%;
 }
