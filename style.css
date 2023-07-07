@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1a19;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+.header-section {
+  background-color: #3c3a39;
+  display: flex;
+  align-items: center;
+  padding: 2px 24px 2px 12px;
+  gap: 205px;
+  position: relative;
+}
+.header-logo {
+  align-self: center;
+  padding: 10px 12px 10px 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  align-items: center;
+  line-height: 24px;
+}
+.headline-section {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  gap: 12px;
+}
+.headline-primary {
+  height: 37%;
+  width: 87%;
+  color: #ff6b00;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+}
+
+.headline-subprimary {
+  display: flex;
+  color: #fff5e1;
+  font-size: 24px;
+  font-weight: 700;
+}
+.headline-description {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+}
+.social-media-icons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.icon {
+  border-radius: 8px;
+}
+.image-container {
+  position: absolute;
+  right: -4%;
+  top: 46%;
+}
+.image-container img {
+  width: 90%;
+}
