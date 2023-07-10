@@ -100,9 +100,10 @@ body {
   align-items: center;
   margin-bottom: 80px;
 }
+
 .works-title h1 {
   color: #1c1a19;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
@@ -150,7 +151,7 @@ body {
 
 .btn {
   background-color: #ff6b00;
-  color: #ffffff;
+  color: #fff;
   font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -164,8 +165,9 @@ body {
 .works-cards {
   display: grid;
   grid-template-columns: 1fr;
-  color: #ffffff;
+  color: #fff;
 }
+
 .works-card {
   display: flex;
   flex-direction: column;
@@ -184,9 +186,11 @@ body {
   margin-bottom: 12px;
   line-height: 24px;
 }
+
 .works-card-details h2 {
   margin-bottom: 16px;
 }
+
 .works-card-details p {
   margin-bottom: 16px;
 }
@@ -202,9 +206,11 @@ body {
   gap: 12px;
   margin-bottom: 12px;
 }
+
 .works-card-details .languages .dev-tool {
   background: rgba(255, 255, 255, 0.24);
 }
+
 .works-card .btn {
   text-align: center;
 }
@@ -212,10 +218,6 @@ body {
 .btn:hover {
   background-color: #fff5e1;
   color: #f55800;
-}
-.btn:pressed {
-  background-color: #e05304;
-  color: #f4f1f0;
 }
 
 .about-myself {
@@ -312,7 +314,7 @@ body {
   .works-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: #ffffff;
+    color: #fff;
   }
 
   .works-card .btn {
