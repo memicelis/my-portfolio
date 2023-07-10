@@ -179,7 +179,6 @@ body {
   margin-left: -3px;
   padding: 8px 16px 8px 16px;
   gap: 8px;
-  margin-bottom: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -247,9 +246,10 @@ body {
   line-height: 88px;
   letter-spacing: 0.37px;
 }
+
 .about-myself-details p {
   color: #f4f5f7;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -264,6 +264,7 @@ body {
 .about-myself svg {
   height: 17px;
 }
+
 .about-myself-tools {
   padding: 120px 24px 38px 24px;
 }
@@ -276,6 +277,7 @@ body {
   align-items: center;
   gap: 24px;
 }
+
 .tools h2 {
   text-align: center;
   font-family: "Inter", sans-serif;
