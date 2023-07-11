@@ -289,6 +289,7 @@ body {
   align-items: center;
   gap: 24px;
 }
+
 .tools-category {
   display: flex;
   padding: 12px;
@@ -296,6 +297,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .tools h2 {
   text-align: center;
   font-family: "Inter", sans-serif;
