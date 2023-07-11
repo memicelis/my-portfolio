@@ -215,6 +215,7 @@ body {
 }
 
 .works-card-details .languages .dev-tool {
+  border: none;
   background: rgba(255, 255, 255, 0.24);
 }
 
@@ -269,7 +270,7 @@ body {
 
 .about-myself-details .btn {
   width: 50%;
-  margin-bottom: 200px;
+  margin-bottom: 220px;
 }
 
 .about-myself svg {
@@ -288,7 +289,13 @@ body {
   align-items: center;
   gap: 24px;
 }
-
+.tools-category {
+  display: flex;
+  padding: 12px;
+  margin-bottom: 24px;
+  align-items: center;
+  justify-content: center;
+}
 .tools h2 {
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -296,10 +303,9 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-  margin-bottom: 24px;
 }
 
-.tools svg {
+.tools-category svg {
   height: 10%;
   margin-right: 12px;
 }
@@ -307,7 +313,7 @@ body {
 .subcategories {
   list-style: none;
   display: flex;
-  padding: 0 12px;
+  padding: 0 12px 0 12px;
   flex-direction: column;
   align-items: center;
   gap: 8px;
