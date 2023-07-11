@@ -113,14 +113,17 @@ body {
 .multi-post-stories-project {
   display: flex;
   flex-direction: column;
-}
-
-.multi-post-stories-project img {
   margin-bottom: 24px;
 }
 
+.image-container {
+  gap: 24px;
+}
+
 .project-name {
-  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .project-description {
@@ -159,13 +162,13 @@ body {
   border: none;
   line-height: 24px;
   padding: 12px;
-  gap: 10px;
 }
 
 .works-cards {
   display: grid;
   grid-template-columns: 1fr;
   color: #fff;
+  gap: 24px;
 }
 
 .works-card {
@@ -187,6 +190,11 @@ body {
 }
 
 .works-card-details h2 {
+  font-family: "Crete Round", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
   margin-bottom: 16px;
 }
 
@@ -217,6 +225,7 @@ body {
 .btn:hover {
   background-color: #fff5e1;
   color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .about-myself {
@@ -286,6 +295,10 @@ body {
   font-weight: 700;
   line-height: 44px;
   margin-bottom: 24px;
+}
+
+.tools svg {
+  height: 10%;
 }
 
 .subcategories {
