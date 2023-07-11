@@ -126,6 +126,18 @@ body {
   gap: 12px;
 }
 
+.project-name h2 {
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.project-name .btn {
+  width: 37%;
+}
+
 .project-description {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -269,7 +281,7 @@ body {
 }
 
 .about-myself-details .btn {
-  width: 50%;
+  width: 46%;
   margin-bottom: 220px;
 }
 
