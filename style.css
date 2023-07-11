@@ -226,6 +226,8 @@ body {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
+  padding-bottom: 11px;
+  padding-top: 11px;
 }
 
 .about-myself {
@@ -299,6 +301,7 @@ body {
 
 .tools svg {
   height: 10%;
+  margin-right: 12px;
 }
 
 .subcategories {
