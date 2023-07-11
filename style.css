@@ -20,6 +20,7 @@ body {
 }
 
 .header-logo {
+  color: #fff;
   align-self: center;
   padding: 10px 12px 10px 12px;
   font-family: "Roboto", sans-serif;
@@ -127,7 +128,17 @@ body {
   gap: 12px;
 }
 
+.project-name h2 {
+  color: #091e42;
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
 .project-description {
+  color: #091e42;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -143,7 +154,6 @@ body {
   display: flex;
   list-style: none;
   gap: 12px;
-  margin-bottom: 12px;
 }
 
 .dev-tool {
@@ -163,6 +173,10 @@ body {
   border: none;
   line-height: 24px;
   padding: 12px;
+}
+
+.project-name .btn {
+  width: 37%;
 }
 
 .works-cards {
@@ -239,7 +253,7 @@ body {
   background-color: #1c1a19;
   background-image: url(images/about-me-big.png);
   background-repeat: no-repeat;
-  background-size: 116% 22%;
+  background-size: 116% 15%;
   background-position: 214px 382px;
 }
 
@@ -270,8 +284,8 @@ body {
 }
 
 .about-myself-details .btn {
-  width: 50%;
-  margin-bottom: 220px;
+  width: 46%;
+  margin-bottom: 75px;
 }
 
 .about-myself svg {
