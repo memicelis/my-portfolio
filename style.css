@@ -7,6 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  height: 100%;
 }
 
 .header-section {
@@ -330,22 +331,27 @@ body {
 .contact-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  height: 100%;
 }
 
 .contact-data {
   display: flex;
   flex-direction: column;
   padding: 120px 24px 120px 24px;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 15px;
+  height: 100%;
 }
 .contact-section form {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  height: 100%;
 }
 .contact-input {
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 
 .contact-data h2 {
@@ -366,9 +372,51 @@ body {
   border: none;
   border-bottom: 1px solid #dbd8d7;
 }
-.contact-input .text-area {
-  border-style: 1px solid #3c3a39;
+
+.contact-input::placeholder {
+  color: #979493;
 }
+
+.textarea-container {
+  display: flex;
+  background-color: #fbf8f7;
+  height: 19vh;
+  position: relative;
+}
+
+.text-area {
+  background-color: #fbf8f7;
+  color: #3c3a39;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100%;
+  resize: none;
+  border: none;
+}
+
+.textarea-container svg {
+  position: absolute;
+  top: 96px;
+  right: -6px;
+}
+
+.btn-contact {
+  align-self: center;
+  width: 38%;
+}
+
+.contact-section .social-media-icons {
+  align-self: center;
+}
+
+.contact-section .social-media-icons img {
+  filter: invert(36%) sepia(9%) saturate(1541%) hue-rotate(180deg)
+    brightness(93%) contrast(84%);
+}
+
 @media only screen and (min-width: 768px) {
   .headline-section {
     background-size: 70% 59.5%;
