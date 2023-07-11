@@ -1,14 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
-  background-color: #1c1a19;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-  text-decoration: none;
-  color: white;
 }
 
 .header-section {
@@ -21,6 +19,7 @@ body {
 }
 
 .header-logo {
+  color: #fff;
   align-self: center;
   padding: 10px 12px 10px 12px;
   font-family: "Roboto", sans-serif;
@@ -36,7 +35,14 @@ body {
 }
 
 .headline-section {
+  background-color: #1c1a19;
+  font-family: "Poppins", sans-serif;
+  color: white;
   display: flex;
+  background-image: url(images/Illustration-header-big.png);
+  background-repeat: no-repeat;
+  background-size: 70% 59.5%;
+  background-position: 232px 287px;
   flex-direction: column;
   padding: 120px 24px;
   gap: 12px;
@@ -79,28 +85,293 @@ body {
   border-radius: 8px;
 }
 
-@media only screen and (min-width: 375px) {
-  /* styles for browsers larger than 375px; */
-  .image-container {
-    position: absolute;
-    right: -4%;
-    top: 52%;
-  }
+.works-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+  padding: 120px 24px;
+}
 
-  .image-container img {
-    width: 90%;
-  }
+.works-title {
+  height: 107px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.works-title h1 {
+  color: #1c1a19;
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 24px;
+}
+
+.multi-post-stories-project {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.image-container {
+  gap: 24px;
+}
+
+.project-name {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-name h2 {
+  color: #091e42;
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.project-description {
+  color: #091e42;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.project-name .languages {
+  color: #091e42;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+.dev-tool {
+  border-style: groove;
+  border-color: #8993a4;
+  border-width: 1px;
+  padding: 10px 12px 10px 12px;
+}
+
+.btn {
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: justify;
+  border: none;
+  line-height: 24px;
+  padding: 12px;
+}
+
+.project-name .btn {
+  width: 37%;
+}
+
+.works-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: #fff;
+  gap: 24px;
+}
+
+.works-card {
+  display: flex;
+  flex-direction: column;
+  background: url(images/works-card-background.png) no-repeat;
+}
+
+.works-card-details {
+  margin-top: 64px;
+  margin-left: -3px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 12px;
+  line-height: 24px;
+}
+
+.works-card-details h2 {
+  font-family: "Crete Round", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+
+.works-card-details p {
+  margin-bottom: 16px;
+}
+
+.works-card-details .languages {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  list-style: none;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.works-card-details .languages .dev-tool {
+  border: none;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.works-card .btn {
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  padding-bottom: 11px;
+  padding-top: 11px;
+}
+
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1c1a19;
+  background-image: url(images/about-me-big.png);
+  background-repeat: no-repeat;
+  background-size: 116% 15%;
+  background-position: 214px 382px;
+}
+
+.about-myself-details {
+  padding: 120px 24px 120px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-myself-details h1 {
+  color: #ff6b00;
+  font-family: "Crete Round", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+}
+
+.about-myself-details p {
+  color: #f4f5f7;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about-myself-details .btn {
+  width: 46%;
+  margin-bottom: 75px;
+}
+
+.about-myself svg {
+  height: 17px;
+}
+
+.about-myself-tools {
+  padding: 120px 24px 38px 24px;
+}
+
+.tools {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.tools-category {
+  display: flex;
+  padding: 12px;
+  margin-bottom: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools h2 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.tools-category svg {
+  height: 10%;
+  margin-right: 12px;
+}
+
+.subcategories {
+  list-style: none;
+  display: flex;
+  padding: 0 12px 0 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42.667px;
 }
 
 @media only screen and (min-width: 768px) {
-  /* styles for minimum desktop 768px; */
-  .image-container {
-    position: absolute;
-    right: -5%;
-    top: 54%;
+  .headline-section {
+    background-size: 70% 59.5%;
+    background-position: 232px 287px;
   }
 
-  .image-container img {
-    width: 75%;
+  .headline-section p {
+    width: 50%;
+  }
+
+  .works-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+  }
+
+  .works-card .btn {
+    width: 90.7%;
+  }
+
+  .about-myself {
+    background-size: 67% 17%;
+    background-position: 363px 382px;
+  }
+
+  .about-myself svg {
+    width: 90%;
+  }
+
+  .about-myself-details .btn {
+    width: 21%;
+    margin-bottom: 300px;
   }
 }
