@@ -134,10 +134,6 @@ body {
   line-height: 44px;
 }
 
-.project-name .btn {
-  width: 37%;
-}
-
 .project-description {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -163,7 +159,7 @@ body {
   padding: 10px 12px 10px 12px;
 }
 
-.project-name .btn {
+.btn {
   background-color: #ff6b00;
   color: #fff;
   font-family: "Inter", sans-serif;
@@ -173,6 +169,10 @@ body {
   border: none;
   line-height: 24px;
   padding: 12px;
+}
+
+.project-name .btn {
+  width: 37%;
 }
 
 .works-cards {
