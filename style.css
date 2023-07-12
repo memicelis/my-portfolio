@@ -421,6 +421,7 @@ body {
   bottom: 0;
   right: 0;
 }
+
 .button-container {
   background-color: #fff;
   border: none;
@@ -463,6 +464,7 @@ body {
     grid-template-columns: 1fr 1fr;
     color: #fff;
   }
+
   .works-card {
     background-size: 80% 100%;
   }
