@@ -7,6 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  height: 100%;
 }
 
 .header-section {
@@ -292,7 +293,7 @@ body {
 }
 
 .about-myself-tools {
-  padding: 120px 24px 38px 24px;
+  padding: 120px 24px 60px 24px;
 }
 
 .tools {
@@ -341,6 +342,111 @@ body {
   line-height: 42.667px;
 }
 
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  padding: 75px 24px 120px 24px;
+  border-bottom: 1px solid #dbd8d7;
+  margin-bottom: 15px;
+  height: 100%;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+}
+
+.contact-input {
+  display: flex;
+  width: 90%;
+  padding: 15px 16px 15px 16px;
+  color: #1c1a19;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.contact-data h2 {
+  display: flex;
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+.contact-input::placeholder {
+  color: #979493;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.textarea-container {
+  display: flex;
+  background-color: #fbf8f7;
+  height: 15vh;
+  position: relative;
+}
+
+.text-area {
+  background-color: #fbf8f7;
+  color: #3c3a39;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100%;
+  resize: none;
+  border: none;
+  padding: 12px;
+}
+
+.textarea-container svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-contact {
+  align-self: center;
+  width: 38%;
+}
+
+.bottom-nav {
+  display: flex;
+  padding-bottom: 16px;
+  justify-content: center;
+}
+
+.bottom-nav .social-media-icons {
+  gap: 0;
+  align-items: center;
+}
+
+.bottom-nav .social-media-icons svg {
+  padding: 8px;
+  color: #505f79;
+}
+
+.end-vector-container {
+  padding: 0 121px 0 120px;
+}
+
 @media only screen and (min-width: 768px) {
   .headline-section {
     background-size: 70% 59.5%;
@@ -358,16 +464,12 @@ body {
   }
 
   .works-card .btn {
-    width: 90.7%;
+    width: 94%;
   }
 
   .about-myself {
     background-size: 67% 17%;
     background-position: 363px 382px;
-  }
-
-  .about-myself svg {
-    width: 90%;
   }
 
   .about-myself-details .btn {
