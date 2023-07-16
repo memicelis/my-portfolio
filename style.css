@@ -50,9 +50,11 @@ body {
 .navigation-links {
   display: none;
 }
+
 .nav-links {
   list-style: none;
 }
+
 .nav-links li a {
   color: #fff;
   text-align: center;
@@ -120,7 +122,7 @@ body {
   padding: 8px;
 }
 
-/*WORKS SECTION*/
+/* WORKS SECTION */
 .works-section {
   display: grid;
   grid-template-columns: 1fr;
