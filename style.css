@@ -589,13 +589,14 @@ body {
     order: -1;
   }
 
+  /* WORKS SECTION */
   .works-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     color: #fff;
   }
 
-  /* WORKS SECTION */
   .works-section {
     padding: 9% 1.6%;
     margin: 0 1.5%;
@@ -652,10 +653,6 @@ body {
   }
 
   /* WORKS CARDS */
-  .works-cards {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-  }
 
   .works-card-details {
     width: 100%;
