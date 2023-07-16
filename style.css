@@ -597,10 +597,6 @@ body {
     background-size: 100% 100%;
   }
 
-  .works-card .btn {
-    width: 100%;
-  }
-
   /*WORKS SECTION*/
   .works-section {
     padding: 9% 1.6%;
@@ -661,6 +657,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
+
   .works-card {
     width: 100%;
     height: 100%;
@@ -695,6 +692,7 @@ body {
     position: relative;
     background-image: url(images/active-works-card.png);
   }
+
   .active .works-card-details {
     display: none;
   }
@@ -708,7 +706,9 @@ body {
     bottom: 0;
     display: inline;
   }
-  /*ABOUT MYSELF*/
+
+  /* ABOUT MYSELF */
+
   .about-myself {
     align-items: normal;
     background-size: 41% 29%;
@@ -785,6 +785,7 @@ body {
     display: none;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .headline-text {
     margin-bottom: 58px;
