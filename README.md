@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <h3><b>My Portfolio mobile version</b></h3>
+  <h3><b>My Portfolio desktop version</b></h3>
 
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -22,7 +22,7 @@
 
 # 📖 My Portfolio <a name="about-project"></a>
 
-> This is my portfolio website, I did mobile website of headline section, works section and about me section
+> This is my portfolio website, I did desktop version of the whole website including all sections(header, headline, works, about me and contact)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -38,13 +38,13 @@
 
 - **[flex]**
 - **[grid]**
-- **[multiple-sections]**
+- **[multiple-display-responsiveness]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> This web page is my portfolio site about me and my projects. At this moment it is only set up for mobile use.
+> This web page is my portfolio site about me and my projects. At this moment it is set for mobile and desktop version
 
 To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:

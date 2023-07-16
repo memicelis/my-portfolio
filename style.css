@@ -22,7 +22,6 @@ body {
   padding: 2px 24px 2px 12px;
   justify-content: space-between;
   position: relative;
-  height: 4.5rem;
 }
 
 .logo-container {
@@ -74,7 +73,7 @@ body {
   background-image: url(images/Illustration-header-big.png);
   background-repeat: no-repeat;
   background-size: 70% 59.5%;
-  background-position: 232px 287px;
+  background-position: 206% 117%;
   flex-direction: column;
   padding: 120px 24px;
   gap: 12px;
@@ -111,7 +110,6 @@ body {
 }
 
 .social-media-icons {
-  width: 61.16%;
   list-style: none;
   display: flex;
   align-items: center;
@@ -122,6 +120,7 @@ body {
   padding: 8px;
 }
 
+/*WORKS SECTION*/
 .works-section {
   display: grid;
   grid-template-columns: 1fr;
@@ -129,6 +128,7 @@ body {
   color: black;
   text-decoration: none;
   padding: 120px 24px;
+  gap: 24px;
 }
 
 .works-title {
@@ -147,15 +147,26 @@ body {
   line-height: 52px;
   margin-bottom: 24px;
 }
+.vector-container {
+  width: 100%;
+}
+
+.vector-container svg {
+  width: 100%;
+}
 
 .multi-post-stories-project {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
 }
 
 .image-container {
+  width: 100%;
   gap: 24px;
+}
+
+.image-container img {
+  width: 100%;
 }
 
 .project-name {
@@ -179,6 +190,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 12px;
+  line-height: 24px;
 }
 
 .project-name .languages {
@@ -226,9 +238,12 @@ body {
   display: flex;
   flex-direction: column;
   background: url(images/works-card-background.png) no-repeat;
+  background-size: 100% 100%;
 }
 
 .works-card-details {
+  display: flex;
+  flex-direction: column;
   margin-top: 64px;
   margin-left: -3px;
   padding: 8px 16px 8px 16px;
@@ -238,6 +253,7 @@ body {
   font-size: 16px;
   margin-bottom: 12px;
   line-height: 24px;
+  gap: 16px;
 }
 
 .works-card-details h2 {
@@ -246,11 +262,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
-  margin-bottom: 16px;
-}
-
-.works-card-details p {
-  margin-bottom: 16px;
 }
 
 .works-card-details .languages {
@@ -262,7 +273,6 @@ body {
   display: flex;
   list-style: none;
   gap: 12px;
-  margin-bottom: 12px;
 }
 
 .works-card-details .languages .dev-tool {
@@ -273,6 +283,7 @@ body {
 .works-card .btn {
   width: 100%;
   text-align: center;
+  gap: 0;
 }
 
 .btn:hover {
@@ -321,11 +332,12 @@ body {
 }
 
 .about-myself-details .btn {
-  margin-bottom: 78px;
+  padding: 12px;
+  margin-bottom: 120px;
 }
 
-.about-myself svg {
-  height: 17px;
+.about-myself-divider {
+  width: 90%;
 }
 
 .about-myself-tools {
@@ -347,6 +359,7 @@ body {
   margin-bottom: 24px;
   align-items: center;
   justify-content: center;
+  gap: 12px;
 }
 
 .tools h2 {
@@ -356,11 +369,6 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 44px;
-}
-
-.tools-category svg {
-  height: 10%;
-  margin-right: 12px;
 }
 
 .subcategories {
@@ -398,7 +406,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  height: 100%;
+  width: 100%;
 }
 
 .contact-input {
@@ -434,7 +442,7 @@ body {
 .textarea-container {
   display: flex;
   background-color: #fbf8f7;
-  height: 15vh;
+  height: 17.5vh;
   position: relative;
 }
 
@@ -471,13 +479,7 @@ body {
   justify-content: center;
 }
 
-.bottom-nav .social-media-icons {
-  gap: 0;
-  align-items: center;
-}
-
 .bottom-nav .social-media-icons svg {
-  padding: 8px;
   color: #505f79;
 }
 
@@ -488,7 +490,7 @@ body {
 @media only screen and (min-width: 768px) {
   /* HEADER SECTION DESKTOP VERSION */
   .header-section {
-    padding: 16px 142px 16px 142px;
+    padding: 1.1% 9.8%;
   }
 
   .logo-container {
@@ -537,8 +539,8 @@ body {
     background-image: url(images/Illustration-header-big.png);
     background-repeat: no-repeat;
     background-size: 47% 114.5%;
-    background-position: 771px -69px;
-    gap: 89px;
+    background-position: 100% 47%;
+    gap: 6.1%;
     padding: 0 0 0 36px;
   }
 
@@ -547,7 +549,7 @@ body {
     width: 40.32%;
     order: 0;
     padding: 192px 0;
-    margin-bottom: 59px;
+    margin-bottom: 75px;
   }
 
   .headline-primary {
@@ -592,20 +594,251 @@ body {
   }
 
   .works-card {
-    background-size: 80% 100%;
+    background-size: 100% 100%;
   }
 
   .works-card .btn {
-    width: 80.1%;
+    width: 100%;
   }
 
+  /*WORKS SECTION*/
+  .works-section {
+    padding: 9% 1.6%;
+    margin: 0 1.5%;
+  }
+  .works-title {
+    flex-direction: row;
+    gap: 24px;
+    align-items: normal;
+  }
+
+  .works-title h1 {
+    white-space: nowrap;
+    align-self: flex-end;
+  }
+
+  .vector-container {
+    display: flex;
+    width: 100%;
+  }
+
+  .vector-container svg {
+    width: 100%;
+    align-self: center;
+    color: #212121;
+  }
+
+  .multi-post-stories-project {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .image-container img {
+    height: 100%;
+  }
+
+  .project-name {
+    width: 50%;
+    gap: 12px;
+  }
+
+  .project-name h2 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .project-description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .project-name .languages {
+    gap: 6px;
+  }
+
+  /*WORKS CARDS*/
+  .works-cards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .works-card {
+    width: 100%;
+    height: 100%;
+  }
+
+  .works-card-details {
+    width: 100%;
+    margin: 170px 0 8px;
+    gap: 24px;
+    font-size: 17px;
+  }
+
+  .works-card-details .languages {
+    margin-bottom: 0;
+  }
+
+  .works-card .btn {
+    display: none;
+  }
+
+  .works-card--2,
+  .works-card--5 {
+    background-image: url(images/works-card-data-dashboard.png);
+  }
+
+  .works-card--3,
+  .works-card--6 {
+    background-image: url(images/works-card-website-portfolio.png);
+  }
+
+  .active {
+    position: relative;
+    background-image: url(images/active-works-card.png);
+  }
+  .active .works-card-details {
+    display: none;
+  }
+
+  .active .button-container-works-cards {
+    display: flex;
+  }
+
+  .active .btn {
+    position: absolute;
+    bottom: 0;
+    display: inline;
+  }
+  /*ABOUT MYSELF*/
   .about-myself {
-    background-size: 67% 17%;
-    background-position: 363px 382px;
+    align-items: normal;
+    background-size: 41% 29%;
+    background-position: 100% 12%;
+  }
+
+  .about-myself-details {
+    margin: 0 50% 0 9%;
+    padding: 9% 0;
+    width: 39.31%;
+  }
+
+  .about-myself-details h1 {
+    line-height: 81.5px;
+  }
+
+  .about-myself-details p {
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .about-myself-details .btn {
-    width: 21%;
-    margin-bottom: 300px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .about-myself-divider {
+    align-self: center;
+    width: 90%;
+  }
+
+  .about-myself-tools {
+    padding: 9% 0;
+  }
+
+  .tools {
+    flex-direction: row;
+    padding: 0 5.7%;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .contact-data {
+    flex-direction: row;
+    gap: 24px;
+    margin: 0 2.3% 15px 2.3%;
+  }
+
+  .contact-data h2 {
+    width: 120%;
+    color: #262626;
+    margin-bottom: 0;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .contact-data-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-container {
+    display: flex;
+    align-self: auto;
+  }
+
+  .bottom-nav .social-media-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .end-vector-container {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .headline-text {
+    margin-bottom: 58px;
+  }
+
+  .works-section {
+    margin: 0 8.1%;
+  }
+
+  .project-name {
+    width: 39.5%;
+    gap: 24px;
+  }
+
+  .project-name .languages {
+    gap: 12px;
+  }
+
+  .works-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .works-card--3 .works-card-details,
+  .works-card--6 .works-card-details {
+    margin-top: 214px;
+  }
+
+  .tools {
+    padding: 0 9.7%;
+  }
+
+  .tools-category {
+    justify-content: flex-start;
+  }
+
+  .subcategories {
+    align-items: self-start;
+  }
+
+  .contact-data {
+    margin: 0 3.3%;
+  }
+
+  .contact-data h2 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: initial;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .contact-data {
+    margin: 0 9.3% 15px 9.3%;
   }
 }
