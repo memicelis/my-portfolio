@@ -39,10 +39,6 @@ body {
   line-height: 24px;
 }
 
-.header-logo:hover {
-  color: blue;
-}
-
 .mobile-nav {
   display: flex;
 }
@@ -497,6 +493,16 @@ body {
 
   .logo-container {
     padding: 10px 12px 10px 12px;
+    animation: rotateOnce 2s ease-in-out; /* Adjust the animation duration and timing as desired */
+  }
+
+  @keyframes rotateOnce {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .header-logo {
@@ -633,6 +639,10 @@ body {
     height: 100%;
   }
 
+  .image-container img:hover {
+    transform: scale(1.01);
+  }
+
   .project-name {
     width: 50%;
     gap: 12px;
@@ -659,6 +669,10 @@ body {
     margin: 170px 0 8px;
     gap: 24px;
     font-size: 17px;
+  }
+
+  .works-card:hover {
+    transform: scale(1.01);
   }
 
   .works-card-details .languages {
@@ -742,6 +756,14 @@ body {
     align-items: flex-start;
   }
 
+  .about-myself .btn:hover {
+    background-color: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+    padding-bottom: 11px;
+    padding-top: 11px;
+  }
+
   .contact-data {
     flex-direction: row;
     gap: 24px;
@@ -754,6 +776,11 @@ body {
     margin-bottom: 0;
     font-size: 32px;
     line-height: 44px;
+    transition: 1s;
+  }
+
+  .contact-data h2:hover {
+    transform: translate(1%);
   }
 
   .contact-data-input {
