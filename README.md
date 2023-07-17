@@ -22,7 +22,7 @@
 
 # 📖 My Portfolio <a name="about-project"></a>
 
-> This is my portfolio website, I did desktop version of the whole website including all sections(header, headline, works, about me and contact)
+> This is my portfolio website, I did desktop version of the whole website including all sections(header, headline, works, about me and contact), also this website is mobile responsive.
 
 ## 🛠 Built With <a name="built-with"></a>
 

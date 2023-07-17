@@ -865,4 +865,8 @@ body {
   .contact-data {
     margin: 0 9.3% 15px 9.3%;
   }
+
+  .contact-data h2 {
+    width: 63%;
+  }
 }
