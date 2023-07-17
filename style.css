@@ -554,11 +554,10 @@ body {
   }
 
   .headline-text {
-    height: 46.18rem;
     width: 40.32%;
     order: 0;
-    padding: 192px 0;
-    margin-bottom: 75px;
+    padding: 22% 0;
+    margin-bottom: 6%;
   }
 
   .headline-primary {
@@ -597,16 +596,10 @@ body {
   }
 
   /* WORKS SECTION */
-  .works-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    color: #fff;
-  }
 
   .works-section {
     padding: 9% 1.6%;
-    margin: 0 1.5%;
+    margin: 0 5%;
   }
 
   .works-title {
@@ -633,7 +626,7 @@ body {
 
   .multi-post-stories-project {
     flex-direction: row;
-    gap: 24px;
+    gap: 1.6%;
   }
 
   .image-container img {
@@ -645,8 +638,8 @@ body {
   }
 
   .project-name {
-    width: 50%;
-    gap: 12px;
+    width: 39.5%;
+    gap: 2.7%;
   }
 
   .project-name h2 {
@@ -660,14 +653,28 @@ body {
   }
 
   .project-name .languages {
-    gap: 6px;
+    gap: 1.6%;
   }
 
   /* WORKS CARDS */
 
+  .works-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: #fff;
+    gap: 1.8%;
+  }
+
+  .works-card {
+    justify-content: flex-end;
+  }
+
   .works-card-details {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    margin: 170px 0 8px;
+    margin: 9% 0 0.4%;
     gap: 24px;
     font-size: 17px;
   }
@@ -678,6 +685,10 @@ body {
 
   .works-card-details .languages {
     margin-bottom: 0;
+  }
+
+  .dev-tool {
+    padding: 1.2% 1.64%;
   }
 
   .works-card .btn {
@@ -757,6 +768,14 @@ body {
     align-items: flex-start;
   }
 
+  .tools-category {
+    justify-content: flex-start;
+  }
+
+  .subcategories {
+    align-items: flex-start;
+  }
+
   .about-myself .btn:hover {
     background-color: #fff5e1;
     color: #f55800;
@@ -772,11 +791,12 @@ body {
   }
 
   .contact-data h2 {
-    width: 120%;
+    width: 63%;
     color: #262626;
     margin-bottom: 0;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: initial;
     transition: 1s;
   }
 
@@ -806,53 +826,6 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-  .headline-text {
-    margin-bottom: 58px;
-  }
-
-  .works-section {
-    margin: 0 8.1%;
-  }
-
-  .project-name {
-    width: 39.5%;
-    gap: 24px;
-  }
-
-  .project-name .languages {
-    gap: 12px;
-  }
-
-  .works-cards {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-
-  .works-card--3 .works-card-details,
-  .works-card--6 .works-card-details {
-    margin-top: 214px;
-  }
-
-  .about-myself {
-    background-position: 100% 23%;
-  }
-
-  .tools {
-    padding: 0 9.7%;
-  }
-
-  .tools-category {
-    justify-content: flex-start;
-  }
-
-  .subcategories {
-    align-items: self-start;
-  }
-
-  .contact-data {
-    margin: 0 3.3%;
-  }
-
   .contact-data h2 {
     width: 100%;
     font-size: 40px;
