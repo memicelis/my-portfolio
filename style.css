@@ -667,16 +667,17 @@ body {
   }
 
   .works-card {
+    padding: 39% 0 0 0;
     justify-content: flex-end;
   }
 
   .works-card-details {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 9% 0 0.4%;
+    padding: 0.9% 5.1%;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 24px;
-    font-size: 17px;
   }
 
   .works-card:hover {
@@ -685,10 +686,11 @@ body {
 
   .works-card-details .languages {
     margin-bottom: 0;
+    gap: 6.4%;
   }
 
   .dev-tool {
-    padding: 1.2% 1.64%;
+    padding: 3% 3.2%;
   }
 
   .works-card .btn {
@@ -706,7 +708,6 @@ body {
   }
 
   .active {
-    position: relative;
     background-image: url(images/active-works-card.png);
   }
 
@@ -719,7 +720,6 @@ body {
   }
 
   .active .btn {
-    position: absolute;
     bottom: 0;
     display: inline;
   }
@@ -822,24 +822,5 @@ body {
 
   .end-vector-container {
     display: none;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .contact-data h2 {
-    width: 100%;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: initial;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .contact-data {
-    margin: 0 9.3% 15px 9.3%;
-  }
-
-  .contact-data h2 {
-    width: 63%;
   }
 }
