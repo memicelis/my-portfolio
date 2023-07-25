@@ -64,17 +64,18 @@ body {
 .mobile-menu-nav.visible {
   display: block;
 }
+
 .mobile-menu-nav {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   background-color: #3c3a39;
-  display: flex;
   flex-direction: column;
   height: 100vh;
   display: none;
 }
+
 .mobile-menu-nav .icon-container {
   display: flex;
   height: 48px;
