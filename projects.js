@@ -83,25 +83,9 @@ buttonOpenProject.forEach((item, index) => {
 
 /* CHECKING FOR DOM AFTER ADDING OVERLAY */
 
-function openURL(event) {
-  const button = event.target.closest('.popup-btn');
-  if (button) {
-    const href = button.getAttribute('href');
-    if (href) {
-      window.open(href, '_blank');
-    }
-  }
-}
-
 const observer = new MutationObserver(() => {
   const overlay = document.querySelector('.overlay');
   if (overlay) {
-    const seeSourceButton = overlay.querySelector('.popup-btn--source');
-    seeSourceButton.addEventListener('click', openURL);
-
-    const seeLiveButton = overlay.querySelector('.popup-btn--live');
-    seeLiveButton.addEventListener('click', openURL);
-
     const exitButton = overlay.querySelector('.icon-cancel');
     exitButton.addEventListener('click', () => overlay.remove());
   }
