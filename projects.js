@@ -24,7 +24,7 @@ mainProject.innerHTML = `
   <div class="project-name">
     <h2>${project.name}</h2>
     <p class="project-description">
-      ${project.description}
+      ${project.paragraph}
     </p>
     <ul class="languages">
       ${projectListItems}
@@ -50,7 +50,7 @@ const workCardData = (project, index) => {
   workCard.innerHTML = `<div class="works-card-details">
   <h2>${project.name}</h2>
   <p>
-    ${project.description}
+    ${project.paragraph}
   </p>
   <ul class="languages">
     ${workCardItems}

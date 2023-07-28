@@ -248,6 +248,7 @@
         </h2>
         <form action="https://formspree.io/f/mzblbajo" method="POST">
           <input
+            id="name"
             class="contact-input"
             type="text"
             name="full-name"
@@ -256,6 +257,7 @@
             required
           />
           <input
+            id="email"
             class="contact-input"
             type="email"
             name="email"
@@ -268,7 +270,6 @@
               name="message"
               maxlength="500"
               placeholder="Write me something..."
-              required
             ></textarea>
             <svg
               width="24"
@@ -289,8 +290,13 @@
             </svg>
           </div>
           <button class="button-container">
-            <input class="btn btn-contact" type="submit" value="Get in touch" />
+            <input
+              class="btn btn-contact submit"
+              type="submit"
+              value="Get in touch"
+            />
           </button>
+          <div class="error"></div>
         </form>
       </div>
     </section>
@@ -432,6 +438,7 @@
         <rect width="134" height="5" rx="2.5" fill="#0D151E" />
       </svg>
     </div>
+    <script src="validation.js" type="module"></script>
     <script src="projects.js" type="module"></script>
     <script src="data.js" type="module"></script>
     <script src="script.js"></script>

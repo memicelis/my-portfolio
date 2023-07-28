@@ -459,6 +459,16 @@ body {
   flex-direction: column;
   gap: 24px;
   width: 100%;
+  position: relative;
+}
+
+.error {
+  color: #f55800;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  top: 100%;
 }
 
 .contact-input {
@@ -557,6 +567,7 @@ body {
   flex-direction: column;
   gap: 24px;
   background-color: #fff;
+  height: 90%;
   width: 90%;
   overflow: scroll;
   left: 50%;
