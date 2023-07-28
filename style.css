@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ body {
 .header-logo {
   color: #fff;
   align-self: center;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -54,7 +54,7 @@ body {
 .nav-links li a {
   color: #fff;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -91,7 +91,7 @@ body {
   list-style: none;
   gap: 8px;
   margin: 0 24px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -118,7 +118,7 @@ body {
 
 .headline-section {
   background-color: #1c1a19;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
   display: flex;
   background-image: url(images/Illustration-header-big.png);
@@ -138,7 +138,7 @@ body {
 
 .headline-primary {
   color: #ff6b00;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-size: 56px;
   font-weight: 400;
@@ -192,22 +192,18 @@ body {
 
 .works-title h1 {
   color: #1c1a19;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 24px;
 }
 
-.vector-container {
+.vector-container img {
   width: 100%;
 }
 
-.vector-container svg {
-  width: 100%;
-}
-
-.multi-post-stories-project {
+.main-project {
   display: flex;
   flex-direction: column;
 }
@@ -229,7 +225,7 @@ body {
 
 .project-name h2 {
   color: #091e42;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -238,7 +234,7 @@ body {
 
 .project-description {
   color: #091e42;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 12px;
@@ -247,7 +243,7 @@ body {
 
 .project-name .languages {
   color: #091e42;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -260,13 +256,18 @@ body {
   border-style: groove;
   border-color: #8993a4;
   border-width: 1px;
-  padding: 10px 12px 10px 12px;
+  padding: 10px 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
 }
 
 .btn {
   background-color: #ff6b00;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
   text-align: justify;
@@ -275,14 +276,13 @@ body {
   padding: 12px;
 }
 
-.button-container-multi {
+.button-container-project {
   width: 100%;
 }
 
 .works-cards {
   display: grid;
   grid-template-columns: 1fr;
-  color: #fff;
   gap: 24px;
 }
 
@@ -291,6 +291,7 @@ body {
   flex-direction: column;
   background: url(images/works-card-background.png) no-repeat;
   background-size: 100% 100%;
+  color: #fff;
 }
 
 .works-card-details {
@@ -299,7 +300,7 @@ body {
   margin-top: 64px;
   margin-left: -3px;
   padding: 8px 16px 8px 16px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 12px;
@@ -308,7 +309,7 @@ body {
 }
 
 .works-card-details h2 {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -317,7 +318,7 @@ body {
 
 .works-card-details .languages {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -365,7 +366,7 @@ body {
 
 .about-myself-details h1 {
   color: #ff6b00;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 72px;
   font-style: normal;
   font-weight: 400;
@@ -375,7 +376,7 @@ body {
 
 .about-myself-details p {
   color: #f4f5f7;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -415,7 +416,7 @@ body {
 
 .tools h2 {
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -430,7 +431,7 @@ body {
   align-items: center;
   gap: 8px;
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -472,7 +473,7 @@ body {
 .contact-data h2 {
   display: flex;
   color: #172b4d;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -483,7 +484,7 @@ body {
 
 .contact-input::placeholder {
   color: #979493;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -500,7 +501,7 @@ body {
 .text-area {
   background-color: #fbf8f7;
   color: #3c3a39;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 15px;
   font-style: italic;
   font-weight: 400;
@@ -538,6 +539,120 @@ body {
   padding: 0 121px 0 120px;
 }
 
+/* POPUP WINDOW */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(151, 148, 147, 0.8);
+  z-index: 2;
+  padding: 60px 16px;
+}
+
+.popup {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #fff;
+  width: 90%;
+  overflow: scroll;
+  left: 50%;
+  top: 6%;
+  padding: 16px;
+  transform: translate(-50%, 0);
+}
+
+.popup-primary {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.popup-title-container {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.popup-title-container h2 {
+  color: #172b4d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 137.5% */
+}
+
+.popup-title-container .icon-container {
+  display: flex;
+  align-self: center;
+}
+
+.popup .languages {
+  align-self: flex-start;
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.popup .languages li {
+  border: 1px solid #1c1a19;
+  padding: 5px 6px;
+}
+
+.popup-description {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.popup-description-block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.popup-buttons-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.popup-buttons-container .button-container {
+  width: max-content;
+}
+
+.popup-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.popup .image-container {
+  height: 30vh;
+}
+
+.popup .image-container img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.popup .image-container img:hover {
+  transform: none;
+}
+
 @media only screen and (min-width: 768px) {
   /* HEADER SECTION DESKTOP VERSION */
   .header-section {
@@ -562,7 +677,7 @@ body {
   .header-logo {
     color: #fff;
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -615,7 +730,7 @@ body {
 
   .headline-primary {
     color: #f55800;
-    font-family: "Crete Round", serif;
+    font-family: 'Crete Round', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
@@ -624,7 +739,7 @@ body {
 
   .headline-subprimary {
     color: #fff;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -633,7 +748,7 @@ body {
 
   .headline-description {
     color: #f4f5f7;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -677,13 +792,9 @@ body {
     color: #212121;
   }
 
-  .multi-post-stories-project {
+  .main-project {
     flex-direction: row;
     gap: 1.6%;
-  }
-
-  .image-container img {
-    height: 100%;
   }
 
   .image-container img:hover {
@@ -709,6 +820,11 @@ body {
     gap: 1.6%;
   }
 
+  .dev-tool {
+    font-size: 15px;
+    padding: 3% 3.2%;
+  }
+
   /* WORKS CARDS */
 
   .works-cards {
@@ -722,6 +838,7 @@ body {
   .works-card {
     padding: 39% 0 0 0;
     justify-content: flex-end;
+    height: 55vh;
   }
 
   .works-card-details {
@@ -741,10 +858,6 @@ body {
     gap: 6.4%;
   }
 
-  .dev-tool {
-    padding: 3% 3.2%;
-  }
-
   .works-card .btn {
     display: none;
   }
@@ -759,21 +872,12 @@ body {
     background-image: url(images/works-card-website-portfolio.png);
   }
 
-  .active {
-    background-image: url(images/active-works-card.png);
-  }
-
-  .active .works-card-details {
+  .works-card:hover .works-card-details {
     display: none;
   }
 
-  .active .button-container-works-cards {
+  .works-card:hover .button-container-works-cards {
     display: flex;
-  }
-
-  .active .btn {
-    bottom: 0;
-    display: inline;
   }
 
   /* ABOUT MYSELF */
@@ -852,10 +956,6 @@ body {
     transition: 1s;
   }
 
-  .contact-data h2:hover {
-    transform: translate(1%);
-  }
-
   .contact-data-input {
     display: flex;
     flex-direction: column;
@@ -874,5 +974,105 @@ body {
 
   .end-vector-container {
     display: none;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(151, 148, 147, 0.8);
+    z-index: 2;
+  }
+
+  .popup {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #fff;
+    width: 75%;
+    overflow: scroll;
+    padding: 24px;
+    top: 15%;
+  }
+
+  .popup-primary {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .popup-title-container {
+    padding-bottom: 0;
+  }
+
+  .popup-title-container h2 {
+    color: #172b4d;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 137.5% */
+  }
+
+  .popup-title-container .icon-container {
+    display: flex;
+    align-self: center;
+  }
+
+  .popup-description {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 24px;
+  }
+
+  .popup .languages {
+    align-self: flex-start;
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    font-size: 13px;
+  }
+
+  .popup .languages li {
+    border: 1px solid #1c1a19;
+    padding: 5px 6px;
+  }
+
+  .popup-description-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .popup-buttons-container {
+    display: flex;
+    gap: 12px;
+  }
+
+  .popup-buttons-container .button-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .popup .image-container {
+    height: 55vh;
+  }
+
+  .popup .image-container img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .contact-data h2:hover {
+    transform: translate(1%);
+  }
+
+  .works-card:hover .btn {
+    bottom: 0;
+    display: inline;
   }
 }
