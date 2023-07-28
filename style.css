@@ -621,6 +621,7 @@ body {
 .popup-buttons-container {
   display: flex;
   gap: 24px;
+  justify-content: space-between;
 }
 
 .popup-buttons-container .button-container {
