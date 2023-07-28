@@ -1,19 +1,19 @@
-import projectsData from "./data.js";
-import popup from "./popup.js";
+import projectsData from './data.js';
+import popup from './popup.js';
 
 /* Feature project */
 const project = projectsData.find((project) => project.id === 1);
 const projectListItems = project.technologies
   .map((item) => `<li class="dev-tool">${item}</li>`)
-  .join("");
-const portfolioTitle = document.createElement("div");
-portfolioTitle.className = "works-title";
+  .join('');
+const portfolioTitle = document.createElement('div');
+portfolioTitle.className = 'works-title';
 portfolioTitle.innerHTML = `<h1>My Recent Works</h1>
 <div class="vector-container">
   <img src="images/recent-works-vector.svg" />
 </div>`;
-const mainProject = document.createElement("div");
-mainProject.className = "main-project";
+const mainProject = document.createElement('div');
+mainProject.className = 'main-project';
 mainProject.innerHTML = `
   <div class="image-container">
     <img
@@ -36,16 +36,16 @@ mainProject.innerHTML = `
 
 /* WORKS CARD */
 
-const workCards = document.createElement("div");
-workCards.className = "works-cards";
+const workCards = document.createElement('div');
+workCards.className = 'works-cards';
 
 const workCardData = (project, index) => {
-  const workCard = document.createElement("div");
+  const workCard = document.createElement('div');
   workCard.className = `works-card works-card--${index}`;
 
   const workCardItems = project.technologies
     .map((item) => `<li class="dev-tool">${item}</li>`)
-    .join("");
+    .join('');
 
   workCard.innerHTML = `<div class="works-card-details">
   <h2>${project.name}</h2>
@@ -62,7 +62,7 @@ const workCardData = (project, index) => {
 
   return workCard;
 };
-const section = document.querySelector("#portfolio");
+const section = document.querySelector('#portfolio');
 section.appendChild(portfolioTitle);
 section.appendChild(mainProject);
 section.appendChild(workCards);
@@ -72,25 +72,25 @@ projectsData.forEach((project, index) => {
   workCards.appendChild(workCardData(project, index));
 });
 
-const buttonOpenProject = document.querySelectorAll(".works-section .btn");
+const buttonOpenProject = document.querySelectorAll('.works-section .btn');
 buttonOpenProject.forEach((item, index) => {
-  item.addEventListener("click", () => {
+  item.addEventListener('click', () => {
     const project = projectsData[index];
     const popupDiv = popup(project);
-    section.insertAdjacentHTML("beforeend", popupDiv);
+    section.insertAdjacentHTML('beforeend', popupDiv);
   });
 });
 
 /* CHECKING FOR DOM AFTER ADDING OVERLAY */
 
 const observer = new MutationObserver(() => {
-  const overlay = document.querySelector(".overlay");
+  const overlay = document.querySelector('.overlay');
   if (overlay) {
-    const exitButton = overlay.querySelector(".icon-cancel");
-    exitButton.addEventListener("click", () => overlay.remove());
+    const exitButton = overlay.querySelector('.icon-cancel');
+    exitButton.addEventListener('click', () => overlay.remove());
   }
 });
-observer.observe(document.querySelector("#portfolio"), {
+observer.observe(document.querySelector('#portfolio'), {
   childList: true,
   subtree: true,
 });
