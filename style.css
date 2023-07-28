@@ -557,10 +557,11 @@ body {
   flex-direction: column;
   gap: 24px;
   background-color: #fff;
+  height: 90%;
   width: 90%;
   overflow: scroll;
   left: 50%;
-  top: 3rem;
+  top: 1rem;
   padding: 16px;
   transform: translate(-50%, 0);
 }
@@ -616,6 +617,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  font-size: 16px;
 }
 
 .popup-buttons-container {
@@ -987,9 +989,11 @@ body {
     flex-direction: column;
     gap: 40px;
     background-color: #fff;
-    width: 90%;
-    overflow: scroll;
+    height: auto;
+    width: 83%;
+    overflow: hidden;
     padding: 24px;
+    top: 6rem;
   }
 
   .popup-primary {
